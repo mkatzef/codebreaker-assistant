@@ -19,7 +19,7 @@ To run target-solver, the host machine must have the following installed:
 
 ### Running
 
-The tool may be started by running the script `TargetSolver.py` as follows:
+The tool may be started by running the script `TargetSolver.py` as follows:  
 `python3 CodebreakerAssistant.py` 
 
 The response will be a prompt for a word template, described in Section "Use".
@@ -39,21 +39,21 @@ For example, the following row provides three locked-in letters, and two unknown
 
 <table align="center">
     <tr>
-        <td align="center">P<sup>1</sup></td>
-        <td align="center">U<sup>2</sup></td>
-        <td align="center"> <sup>3</sup></td>
-        <td align="center"> <sup>3</sup></td>
-        <td align="center">L<sup>4</sup></td>
-        <td align="center"> <sup>5</sup></td>
+        <td align="center"><sup>1</sup>P</td>
+        <td align="center"><sup>2</sup>U</td>
+        <td align="center"><sup>3</sup> </td>
+        <td align="center"><sup>3</sup> </td>
+        <td align="center"><sup>4</sup>L</td>
+        <td align="center"><sup>5</sup> </td>
     </tr>
 </table>
 
-The above clue may be represented by any of the following templates:
+The above clue may be represented by any of the following templates:  
 `pu33l5`  
 `PU11L2`  
 `Pu**L#`  
-Entering any of the above templates in the codebreaker-assistant prompt results in the following output:
-`['puddle', 'puddly', 'puzzle']`
+Entering any of the above templates in the codebreaker-assistant prompt results in the following output:  
+`['puddle', 'puddly', 'puzzle']`  
 A literal Python list of the valid English words with that form. As there is more than one suggestion, other puzzle words should be solved first, to lock in more letters.
 
 ## Authors
